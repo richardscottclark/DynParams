@@ -13,12 +13,12 @@
   // Give the parameter a variable name
   var dynamicText = getParameterByName('dynamic');
    $(document).ready(function() {
-    // Check if the URL parameter is 01
-    if (dynamicText == '01') {
+    // Check if the URL parameter is 
+    if (dynamicText == 'H1') {
       $( "#headline").replaceWith( "<h1><strong>Headline 1</strong></span></h1>" );
     } 
-    // Check if the URL parameter is 02
-    else if (dynamicText == '02') {
+    // Check if the URL parameter is H2
+    else if (dynamicText == 'H2') {
       $( "#headline" ).replaceWith( "<h1><strong>Headline 2</strong></span></h1>" );
     } 
     // Check if the URL parmeter is empty. If empty display default a default text.
